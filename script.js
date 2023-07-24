@@ -26,7 +26,7 @@ class Teacher extends Person {
 		super(name, age);
 	}
 	teach(){
-		console.log('${this.name} is teaching');
+		console.log(`${this.name} is teaching`);
 	}
 }
 
