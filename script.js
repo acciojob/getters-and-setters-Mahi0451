@@ -37,7 +37,8 @@ const person1 = new Person("John", 30);
 console.log(`Person's name: ${person1.name}, Age: ${person1.age}`);
 
 const student1 = new Student("JAlice", 20);
-student.study();
+student1.study();
+
 const teacher1 = new Teacher("Ms.shy", 30);
 teacher1.teach();
 // Do not change the code below this line
